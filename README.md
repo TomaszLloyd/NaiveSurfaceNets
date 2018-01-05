@@ -1,5 +1,9 @@
 ## Naive Surface Nets in C#
 
+[screen1]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen1.png "Initial Setup"
+[screen2]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen2.png "Running"
+[screen3]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen3.png "Closeup"
+
 This is an implementation of Naive Surface nets adapted from S.F. Gibson, "Constrained Elastic Surface Nets". (1998) MERL Tech Report.
 
 I relied on Gibsons paper, [Mikola Lysenkos implementation](https://github.com/mikolalysenko/mikolalysenko.github.com/blob/master/Isosurface/js/surfacenets.js), as well as considerable help from my friend and colleague [Andrew Gotow](https://github.com/andrewgotow).
@@ -12,6 +16,6 @@ We'll start by creating a sample space, then take samples at each voxel in that 
   
 You can take this a step further and create a different distance for each object. This can be very useful in visualizing electric fields, radiation visualization, etc.
 
-[screen1]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen1.png "Screenshot 1"
-
 ![alt text][screen1]
+![alt text][screen2]
+![alt text][screen3]
