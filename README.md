@@ -12,6 +12,6 @@ We'll start by creating a sample space, then take samples at each voxel in that 
   
 You can take this a step further and create a different distance for each object. This can be very useful in visualizing electric fields, radiation visualization, etc.
 
-[screen1]: https://github.com/tomaszfoster/NaiveSurfaceNets/screenshots/screen1.png "Screenshot 1"
+[screen1]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen1.png "Screenshot 1"
 
 ![alt text][screen1]
