@@ -1,8 +1,8 @@
 ## Naive Surface Nets in C#
 
-[screen1]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen1.png "Initial Setup"
-[screen2]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen2.png "Running"
-[screen3]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshots/screen3.png "Closeup"
+[screen1]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshot/screen1.png "Initial Setup"
+[screen2]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshot/screen2.png "Running"
+[screen3]: https://github.com/TomaszFoster/NaiveSurfaceNets/blob/master/screenshot/screen3.png "Closeup"
 
 This is an implementation of Naive Surface nets adapted from S.F. Gibson, "Constrained Elastic Surface Nets". (1998) MERL Tech Report.
 
