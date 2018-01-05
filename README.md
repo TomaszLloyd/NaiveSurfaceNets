@@ -6,7 +6,7 @@
 
 This is an implementation of Naive Surface nets adapted from S.F. Gibson, "Constrained Elastic Surface Nets". (1998) MERL Tech Report.
 
-I relied on Gibsons paper, [Mikola Lysenkos implementation](https://github.com/mikolalysenko/mikolalysenko.github.com/blob/master/Isosurface/js/surfacenets.js), as well as considerable help from my friend and colleague [Andrew Gotow](https://github.com/andrewgotow).
+I relied on Gibsons paper, the incredibly well documented [Mikola Lysenkos implementation](https://github.com/mikolalysenko/mikolalysenko.github.com/blob/master/Isosurface/js/surfacenets.js) and his [explanation](https://0fps.net/2012/07/12/smooth-voxel-terrain-part-2/), as well as considerable help from my friend and colleague [Andrew Gotow](https://github.com/andrewgotow) who also wrote the shader for this visualization.
 
 Please note: This code was written with modularity in mind, separating each task into it's own function. There are a LOT of performance improvements that can be made by not having multiple for loops, however, I wrote this for clarity so that you can better understand the concepts involved.
 
@@ -16,6 +16,9 @@ We'll start by creating a sample space, then take samples at each voxel in that 
   
 You can take this a step further and create a different distance for each object. This can be very useful in visualizing electric fields, radiation visualization, etc.
 
+In these screens you can see the mesh after it's rendered. Also, I have Shaded Wireframe turned on so that you can better see the triangulation
 ![alt text][screen1]
 ![alt text][screen2]
+
+Here's a closeup of the triangle mesh. Nice and smooth tessellation.
 ![alt text][screen3]
